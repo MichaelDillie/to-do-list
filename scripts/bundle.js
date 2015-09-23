@@ -21,14 +21,14 @@ var pushToArray = function pushToArray() {
 
 submit.addEventListener('click', pushToArray);
 
-var render = function render() {
+var resetButton = function resetButton() {
 	emptyArray = [];
 	todoItems = [];
 	console.log(todoItems);
 	lable.value = '';
 };
 
-reset.addEventListener('click', render);
+reset.addEventListener('click', resetButton);
 
 },{}]},{},[1])
 

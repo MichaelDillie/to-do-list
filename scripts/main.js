@@ -20,11 +20,11 @@ var pushToArray = function() {
 
 submit.addEventListener('click', pushToArray);
 
-var render = function() {
+var resetButton = function() {
 	emptyArray = [];
 	todoItems = [];
 	console.log(todoItems);
 	lable.value = '';
 }
 
-reset.addEventListener('click', render);
+reset.addEventListener('click', resetButton);
